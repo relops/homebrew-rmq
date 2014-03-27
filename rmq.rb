@@ -2,7 +2,7 @@ require 'formula'
 
 class Rmq < Formula
   homepage 'https://github.com/relops/rmq'
-  version '0.2.31'
+  version '0.2.38'
 
   if Hardware.is_64_bit?
     

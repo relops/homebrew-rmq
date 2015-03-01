@@ -7,10 +7,10 @@ class Rmq < Formula
   if Hardware.is_64_bit?
     
     url "https://dl.bintray.com/relops/rmq/rmq_#{version}_darwin_amd64.zip"
-    sha256 '70563037b3e42f79066fdc0b600d964aa621ed8e7c8feb2edcb7be4464052ac1'
+    sha256 '456997ae87b394a31be14f33eb7f3fa48b84610c5e094273b4414ba3efc01e98'
   else
     url "https://dl.bintray.com/relops/rmq/rmq_#{version}_darwin_386.zip"
-    sha256 '0e4b3907c24f0c7c4a4211bc7a87749d27734a8fb4a396f990d2a5ea8b5d0124'
+    sha256 '26f32a3968165c1c4a1e57fdc8e7d3a599c9e60a03ac267e8ad388aef7432bae'
   end
 
   depends_on :arch => :intel
